@@ -1,0 +1,12 @@
+<table class="table table-striped" ng-controller='myController'>
+	<thead>
+      <tr> <th>Name</th> <th>Price</th> </tr>
+    </thead>
+
+    <tbody>
+    	<tr ng-repeat='scotch in scotches'>
+    		<td>{{ scotch.name }}</td>
+    		<td>{{ scotch.price }}</td>
+    	</tr>
+    </tbody>
+</table>

@@ -1,0 +1,58 @@
+<label>Search</label>
+<input type='text' value='Doe'>
+
+<h3>Search Result</h3>
+<div class='list-group'>
+
+	<!-- Text isolated Scope, Start -->
+	<div text-isolated-scope 
+		person-name="{{ person.name }}" 
+		person-address="{{ person.address }}" >
+		*Search results may not be valid
+	</div>
+
+	<text-isolated-scope  
+		person-name="{{ person.name }}" 
+		person-address="{{ person.address }}">
+		*Search results may not be valid
+	</text-isolated-scope >
+	<!-- Text isolated Scope, End -->
+
+
+	<!-- 2 way binding isolated Scope, Start -->
+	<div object-two-way-isolated-scope
+		person-object="person">
+		*Search results may not be valid
+	</div>
+
+	<object-two-way-isolated-scope
+		person-object="person">
+		*Search results may not be valid
+	</object-two-way-isolated-scope>
+	<!-- 2 way binding isolated Scope, Start -->
+
+
+	<!-- function binding isolated Scope, Start -->
+	<div function-isolated-scope
+		person-object="person1"
+		formatted-address-function="formattedAddress(aperson)">
+		*Search results may not be valid
+	</div>
+
+	<function-isolated-scope
+		person-object="person1"
+		formatted-address-function="formattedAddress(aperson)">
+		*Search results may not be valid 
+	</function-isolated-scope>
+	<!-- function binding isolated Scope, Start -->
+
+
+	<repeat-directives
+		person-object="person1"
+		formatted-address-function="formattedAddress1(aperson)"
+		ng-repeat="person1 in people"> 
+		*Search results may not be valid
+	</repeat-directives>
+
+	
+</div>
