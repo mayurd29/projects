@@ -1,0 +1,2 @@
+Modules :
+A reusable block of code whose existence does not accidentally impact other code. Javascript did't have this before ES 6.

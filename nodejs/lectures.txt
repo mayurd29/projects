@@ -1,0 +1,11 @@
+16. Conceptual Aside: Modules
+17. JavaScriot Aside: First-Class Functions & Function Expression
+18. Build a Module
+19. JA: Objects and Object Literals
+20. JA: Prototypal Inheritance and Function Constructions
+21. JA: by reference and by value
+22. JA: Immediately Invoked Function Expression
+23. (most important) module.exposrts and require 
+24. JSON
+25. (most important) More on require 
+26. (most important) Module Patterns
